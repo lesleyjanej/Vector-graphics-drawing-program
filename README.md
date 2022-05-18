@@ -13,13 +13,14 @@ The application allows the user to do the following:
  - Clear button to remove all shapes from screen
 
 <b> How to run program: </b> 
-Compile all java classes in each java package (model, main and view). In Windows 10 this is done running the following commands in cmd: (Within src directory)
+Compile all java classes in each java package (model, main and view). One way to do this in Windows 10, is: 
 
-javac model*.java
+Navigate to src directory and open up cmd. Do the following commands:
+javac main/*.java
 
-javac main*.java
+javac view/*.java
 
-javac view*.java
+javac model/*.java
 
 
 Then to run:
