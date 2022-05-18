@@ -16,8 +16,11 @@ The application allows the user to do the following:
 Compile all java classes in each java package (model, main and view). In Windows 10 this is done running the following commands in cmd: (Within src directory)
 
 javac model*.java
-javac main *.java
-javac view *.java
+
+javac main*.java
+
+javac view*.java
+
 
 Then to run:
 
