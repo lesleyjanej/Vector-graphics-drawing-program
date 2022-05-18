@@ -12,10 +12,13 @@ The application allows the user to do the following:
  - Different fill colours for shape creation
  - Clear button to remove all shapes from screen
 
+Screenshot in the root folder of this Github repo shows the application running.
+
 <b> How to run program: </b> 
 Compile all java classes in each java package (model, main and view). One way to do this in Windows 10, is: 
 
 Navigate to src directory and open up cmd. Do the following commands:
+
 javac main/*.java
 
 javac view/*.java
